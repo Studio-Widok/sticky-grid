@@ -11,8 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "cash-dom": "^8.1.1",
-    "smoothscroll-polyfill": "^0.4.4",
-    "widok": "github:studio-widok/widok",
     "widok-throttle": "github:studio-widok/widok-throttle"
   },
   "devDependencies": {

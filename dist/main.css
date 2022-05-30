@@ -1,0 +1,82 @@
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \***********************************************************************************************************************************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: calc(1vh * 100);
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
+#overflow {
+  overflow: hidden;
+  padding: 0 3em;
+  margin: 6rem 0;
+}
+
+#top {
+  position: relative;
+  margin-right: 50%;
+  max-width: 50%;
+  background-color: #fff;
+  padding: 6rem 3rem;
+  margin-left: -1px;
+}
+#top #top-content {
+  font-size: 1.25em;
+  max-width: 30em;
+  color: #f55;
+}
+#top::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  left: -3rem;
+  width: 3rem;
+}
+
+#container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+#container #grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+}
+#container #left {
+  width: 50%;
+}
+#container #left #img {
+  position: absolute;
+  left: 0;
+  background-color: #eee;
+  border: 1px solid #f55;
+}
+#container #right {
+  width: 50%;
+  background-color: #fff;
+  border: 1px solid #f55;
+  margin-right: -100px;
+}
+#container #right textarea {
+  display: block;
+  resize: vertical;
+  width: 100%;
+  max-width: 50em;
+  min-height: 20em;
+  background-color: #eee;
+  border: none;
+}
+
+/*# sourceMappingURL=main.css.map*/
