@@ -64,7 +64,7 @@ function applyGridSize() {
 
   elements.img.css({
     top: gridSize * 3,
-    bottom: gridSize - 1,
+    bottom: gridSize,
     width: gridSize * 3 + 1,
   });
 }
